@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+thead {
+  background: #6C4AB6;
+}
+table {
+  background: #8D9EFF;
+  color: white;
+}
+td, th {
+  padding: 0.5rem 1.5rem;
+}
+.border {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width:80px;
+  color: #daf2f2;
+  margin-bottom: 100px;
+}
+/* navbar */
+.nav {
+  background-color: #B9E0FF;
+}
+/* Hero */
+.hero {
+  background: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8&w=1000&q=80') no-repeat center center/cover;
+}
+.hero-heading {
+  
+  font-family: 'Montserrat', sans-serif;
+}
+.hero-text {
+  color: white;
+  
+}
+
+/* About */
+.about-img {
+  border-radius: 50%;
+  width: 80%;
+
+}
+.list {
+  display: inline-block;
+}
+#Projects {
+  background-color: #8D72E1;
+}
+
+#footer {
+  padding: 2%;
+  text-align: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  color: #8D9EFF;
+}
+.footer-icon {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.contact {
+  justify-content: center;
+  text-align: center;
+  color: #8D9EFF;
+}
+.footer-logo {
+  color: #8D9EFF;
+}
+@media screen and (max-width: 900px) {
+  #About {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .about-img {
+    position: relative;
+    left: 20%;
+  }
+  
+}
